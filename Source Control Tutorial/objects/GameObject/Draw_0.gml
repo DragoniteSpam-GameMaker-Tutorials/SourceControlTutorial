@@ -12,6 +12,6 @@ var matrix_final =      matrix_multiply(matrix_sr, matrix_translate);
 
 matrix_set(matrix_world, matrix_final);
 
-//vertex_submit(model, pr_trianglelist, -1);
+vertex_submit(model, pr_trianglelist, -1);
 
 matrix_set(matrix_world, matrix_build_identity());
