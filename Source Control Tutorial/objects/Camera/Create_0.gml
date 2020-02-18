@@ -13,7 +13,7 @@ view_set_visible(0, true);
 
 camera = camera_create();
 
-projection_matrix = matrix_build_projection_perspective_fov(45, view_get_wport(0) / view_get_hport(0), 1, 32000);
+projection_matrix = matrix_build_projection_perspective_fov(60, view_get_wport(0) / view_get_hport(0), 1, 32000);
 
 camera_set_proj_mat(camera, projection_matrix);
 
